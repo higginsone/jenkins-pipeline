@@ -41,4 +41,4 @@
        steps{
            sh './jenkins/scripts/cleanup.sh' }
      }
-}
+ }
