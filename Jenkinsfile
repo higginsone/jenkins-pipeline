@@ -3,7 +3,7 @@
          registry = "higginsone/jenkins-docker-test"
          DOCKER_PWD = credentials('docker-login-pwd') }
      agent {
-         docker {
+         any {
              image 'gnschenker/node-docker'
              args '-p 3000:3000'
              args '-w /app'
